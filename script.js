@@ -8,7 +8,7 @@ function compute()
     var year = new Date().getFullYear()+parseInt(years);
 
     if (principle > 0) {
-        document.getElementById("result").innerText=("If you deposit " + principle + ",\nat an interest rate of " + rate + "%.\nYou will recieve an amount of " + interest + ",\nin the year " + year);
+        document.getElementById("result").innerText=("If you deposit " + principle + "$,\nat an interest rate of " + rate + "%.\nYou will recieve an amount of " + interest + "$,\nin the year " + year);
         }
     if (principle <= 0) {
         alert("Enter a number greater than zero")
